@@ -17,15 +17,6 @@ public class BookingTest {
 
     BookingEndpoint bookingEndpoint = new BookingEndpoint();
 
-    /*public String lerJson(String caminhoArquivo) throws IOException {
-        return new String(Files.readAllBytes(Paths.get(caminhoArquivo)));
-    }*/
-
-    /*@Test
-    public void consultaPageObjects() {
-        bookingEndpoint.getAllBookings();
-    }*/
-
     // Define um metodo de teste
     @Test
     public void testeGetBooking(){
@@ -35,7 +26,7 @@ public class BookingTest {
     //@Tag("cadastro")
     @Test
     public void testeGetBookingPorId() {
-        bookingEndpoint.getBookingsById(598);
+        bookingEndpoint.getBookingsById(599);
     }
 
     @Tag("smoke")

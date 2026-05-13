@@ -39,7 +39,7 @@ public class BookingTestOld {
         given()
                 .header("Accept", "application/json")
                 .when()
-                .get("/booking/598")
+                .get("/booking/599")
                 .then()
                 .statusCode(200)
                 .body("firstname", equalTo("Josh"))
