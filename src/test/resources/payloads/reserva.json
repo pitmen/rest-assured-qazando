@@ -1,0 +1,11 @@
+{
+  "firstname" : "Pitter",
+  "lastname" : "Lacerda",
+  "totalprice" : 200,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2026-05-20",
+    "checkout" : "2026-05-27"
+  },
+  "additionalneeds" : "Preciso de um colchao extra infantil"
+}
