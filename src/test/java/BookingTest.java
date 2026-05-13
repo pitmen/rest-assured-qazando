@@ -35,7 +35,7 @@ public class BookingTest {
     //@Tag("cadastro")
     @Test
     public void testeGetBookingPorId() {
-        bookingEndpoint.getBookingsById(599);
+        bookingEndpoint.getBookingsById(598);
     }
 
     @Tag("smoke")
